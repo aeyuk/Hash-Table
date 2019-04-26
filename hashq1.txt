@@ -1,0 +1,7 @@
+sample
+is
+ten
+this
+a
+void
+five
