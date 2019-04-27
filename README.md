@@ -29,16 +29,31 @@ Build the project using `make`. There are *four* command line arguments needed t
 Use the example below to aid in compiling and checking results:
 
 example:~/workspace $ ./hash hashtest1.txt hashq1.txt 13 qp
+
 The number of words found in the file was 10
-The number of unique words found in the file was 9 The number of collisions was 5
-sample appears on lines [1] The search had 0 collisions
-is appears on lines [1,2] The search had 0 collisions
-ten appears on lines [2] The search had 0 collisions
-this appears on lines [] The search had 1 collisions
+The number of unique words found in the file was 9
+The number of collisions was 5
+
+sample appears on lines [1]
+The search had 0 collisions
+
+is appears on lines [1,2] 
+The search had 0 collisions
+
+ten appears on lines [2] 
+The search had 0 collisions
+
+this appears on lines [] 
+The search had 1 collisions
+
 a appears on lines [1]
 The search had 0 collisions
-void appears on lines [] The search had 1 collisions
-five appears on lines [] The search had 6 collisions
+
+void appears on lines [] 
+The search had 1 collisions
+
+five appears on lines [] 
+The search had 6 collisions
     
 ## Additional Notes
 This project uses the "djb2" hash function. [Click here to view the function](http://www.cse.yorku.ca/~oz/hash.html).
